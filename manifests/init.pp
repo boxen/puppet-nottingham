@@ -1,3 +1,8 @@
+# Public: Install Nottingham to /Applications.
+#
+# Examples
+#
+#   include nottingham
 class nottingham {
   package { 'Nottingham':
     provider => 'compressed_app',
